@@ -30,7 +30,7 @@ jobs:
       - name: Build Debug APK
         run: |
           cd Messages-main
-          ./gradlew assembleFossifyDebug --no-daemon
+          ./gradlew assembleFossDebug --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
